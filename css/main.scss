@@ -1,0 +1,57 @@
+---
+---
+
+$font-fam: Verdana, sans-serif;
+$primary-color: #333333;
+$secondary-color: #018F78;
+$background-color: #f4f6ed;
+$footer-height: 50px;
+
+body {
+  font-family: $font-fam;
+  color: $primary-color;
+  background-color: $background-color;
+}
+
+html,
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.content {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: $footer-height;
+}
+
+footer {
+  color: $background-color;
+  text-align: center;
+  background-color: $secondary-color;
+  width: 100%;
+  height: $footer-height;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+footer {
+  a {
+    color: $background-color;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+
+  .fa {
+    font-size: 45px;
+  }
+}

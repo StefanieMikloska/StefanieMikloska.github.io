@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="icon" href="{{ "/assets/codepink.png" | prepend: site.baseurl }}">
+        <title>Stef's Site</title>
+    </head>
+    <body>
+        <div class='wrapper'>
+            <div class='content'>
+                {{ content }}
+            </div>
+            {% include site-footer.html %}
+        </div>
+    </body>
+</html>
